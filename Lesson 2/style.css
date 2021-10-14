@@ -1,0 +1,40 @@
+body {
+    background: #dec3d1;
+}
+
+.first {
+    color: crimson;
+    text-align: center;
+    font-size: 50px;
+}
+
+.paragraf {
+    padding: 50px;
+    color: #543540;
+    font-size: 20px;
+    background: #e8efef;
+    border-radius: 50px;
+}
+
+}
+
+.list {
+    color: blue;
+    border: 1px solid black;
+    margin-right: 1000px;
+    background: #efe59e;
+
+}
+ul{
+    font-size: 20px;
+}
+.paragraf1{
+    color: #543540;
+    background: dimgray;
+    font-size: 30px;
+}
+.text3{
+    font-size: 25px;
+    text-align: center;
+    text-decoration: underline;
+}
