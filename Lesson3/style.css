@@ -1,0 +1,48 @@
+body{
+    background: #dedcdc;
+}
+.paragraf1{
+    font-size: 18px;
+    background: #e8efef;
+    border-radius: 0 10px 0 10px;
+    padding: 10px;
+    margin: 20px;
+
+}
+.titel1{
+    text-align: center;
+    background: #a23535;
+    border-radius: 20px 20px 20px 20px;
+    padding: 20px;
+    margin: 10px;
+
+
+}
+.paragraf2{
+    border: 1px solid black;
+    padding: 5px;
+    margin: 0 900px 0 50px;
+    box-shadow: 5px 5px 10px 5px #000;
+
+}
+.paragraf8{
+    border: 1px solid #000;
+    margin: 0 900px 0 50px;
+    box-shadow: 5px 5px 10px 5px #000;
+    font-size: 18;
+    border-radius: 10px;
+}
+.box3{
+    border: 1px solid #ea0505;
+    margin: 0 900px 0 50px;
+    box-shadow: 5px 5px 10px 5px #9b2828;
+    font-size: 18;
+    border-radius: 10px;
+}
+.titel2{
+    border-left: #ea0505;
+    border-radius: 20px;
+    background: #efe59e;
+    padding: 10px;
+    height: 40px;
+}
