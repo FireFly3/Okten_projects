@@ -1,0 +1,23 @@
+.first {
+    background: cornflowerblue;
+    height: 300px;
+    margin: 0 0 20px 0;
+    font-size: 30px;
+}
+.widgets {
+    display: flex;
+    column-gap: 20px;
+    justify-content: space-between;
+    font-size: 30px;
+}
+.big {
+    background: darkblue;
+    height: 300px;
+    width: 500px;
+}
+.contact {
+    background: cornflowerblue;
+    height: 600px;
+    margin: 20px 0 0 0;
+    font-size: 30px;
+}

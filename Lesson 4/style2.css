@@ -1,0 +1,36 @@
+.body {
+    background: #485755;
+}
+
+.header {
+    height: 150px;
+    background: #efe59e;
+    margin: 20px;
+}
+.oll {
+    display: flex;
+
+}
+
+.menu {
+    background: #ea0505;
+    height: 500px;
+    margin: 20px;
+    width: 300px;
+}
+.post{
+   background: blue;
+    height: 240px;
+    margin: 20px;
+    width: 1300px;
+
+}
+.content {
+    flex-grow: 5;
+}
+
+.footer {
+    background: blueviolet;
+    height: 150px;
+    margin: 20px;
+}

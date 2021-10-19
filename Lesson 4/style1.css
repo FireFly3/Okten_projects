@@ -1,0 +1,28 @@
+.display {
+    background: dimgray;
+
+}
+.windiw1 {
+    background: #ea0505;
+    height: 200px;
+    margin: 10px 10px 0px 10px;
+}
+
+.display1 {
+    display: flex;
+    height: 500px;
+}
+
+.window2 {
+    background: blue;
+    width: 200px;
+    flex-grow: 4;
+    margin: 10px 0px 10px 10px;
+}
+
+.window3 {
+    background: blueviolet;
+    width: 200px;
+    flex-grow: 1;
+    margin: 10px;
+}
