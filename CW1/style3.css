@@ -1,0 +1,39 @@
+.box {
+    display: flex;
+    flex-direction: column;
+}
+.box1 {
+    background: #6fb9e1;
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+}
+.box2 {
+    background: #dec3d1;
+    height: 200px;
+    font-size: 50px;
+}
+.box3 {
+    background: #123f57;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+.box4 {
+    background: #912d41;
+    height: 400px;
+    width: 700px;
+    font-size: 40px;
+}
+.box5 {
+    background: #543540;
+    height: 400px;
+    width: 700px;
+    font-size: 50px;
+}
+.box6 {
+    background: #a82323;
+    height: 150px;
+    width: 350px;
+    font-size: 50px;
+}

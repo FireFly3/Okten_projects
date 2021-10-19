@@ -1,0 +1,50 @@
+.blok1 {
+    display: flex;
+    flex-direction: column;
+}
+.blok2 {
+    background: #123f57;
+    height: 250px;
+}
+.blok3 {
+    background: #efe59e;
+    height: 500px;
+    display: flex;
+}
+.blok4 {
+    background: #dec3d1;
+    height: 500px;
+    width: 100px;
+    flex-grow: 4;
+    display: flex;
+    flex-direction: column;
+}
+.blok5 {
+    background: #6fb9e1;
+    height: 500px;
+    width: 100px;
+    flex-grow: 1;
+}
+.blok6 {
+    background: aqua;
+    height: 250px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.blok7 {
+    background: #ea0505;
+    height: 250px;
+    display: flex;
+    justify-content: space-between;
+}
+.blok8 {
+    background: blue;
+    height: 250px;
+    width: 300px;
+}
+.blok9 {
+    background: darkblue;
+    height: 250px;
+    width: 300px;
+}

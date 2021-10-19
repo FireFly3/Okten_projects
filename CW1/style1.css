@@ -1,0 +1,45 @@
+.blok1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.blok2 {
+    background: #5990d3;
+    height: 400px;
+
+}
+.blok3 {
+    background: #efe59e;
+    height: 400px;
+    display: flex;
+}
+.blok4 {
+    background: #123f57;
+    height: 400px;
+    width: 100px;
+    flex-grow: 3;
+    display: flex;
+    flex-direction: column;
+}
+.blok5 {
+    background: #6fb9e1;
+    height: 400px;
+    width: 100px;
+    flex-grow: 1;
+}
+.blok6 {
+    height: 200px;
+    background: crimson;
+
+}
+.blok7 {
+    height: 200px;
+    background: #912d41;
+    display: flex;
+    justify-content: space-between;
+}
+.blok8 {
+    height: 200px;
+    width: 350px;
+    background: black;
+}
