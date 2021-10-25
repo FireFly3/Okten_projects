@@ -1,0 +1,151 @@
+.flex {
+    display: flex;
+}
+
+.fc {
+    flex-direction: column;
+}
+
+.blok1 {
+    height: 100px;
+}
+
+.bg1 {
+    background: #9a9999;
+}
+
+.bg2 {
+    background: #19021e;
+}
+.bg3 {
+    background: blueviolet;
+}
+
+.blok2 {
+    height: 300px;
+}
+
+.blok3 {
+    height: 1800px;
+}
+
+.blok4 {
+    height: 150px;
+}
+
+.box1 {
+    height: 50px;
+    width: 100px;
+    border-radius: 5px;
+    background: black;
+}
+
+.box2 {
+    height: 50px;
+    width: 100px;
+    border-radius: 25px;
+}
+
+.box3 {
+    height: 150px;
+    width: 350px;
+    border-radius: 5px;
+}
+
+.box4 {
+    height: 20px;
+    width: 25px;
+    border-radius: 5px;
+}
+
+.box5 {
+    height: 85px;
+    width: 85px;
+    border-radius: 5px;
+}
+
+.box6 {
+    height: 200px;
+    width: 400px;
+}
+
+.box7 {
+    height: 200px;
+    width: 200px;
+}
+
+.box8 {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.box9 {
+    height: 150px;
+    width: 150px;
+}
+
+.ai {
+    align-items: center;
+}
+
+.jc_sa {
+    justify-content: space-around;
+}
+
+.jc_center {
+    justify-content: center;
+}
+
+.ta_left {
+    text-align: left;
+}
+
+.m_left {
+    margin: 0 0 0 100px;
+}
+
+.m_left2 {
+    margin: 0 0 0 300px;
+}
+
+.margin {
+    margin: 100px;
+}
+
+.margin1 {
+    margin: 25px;
+}
+
+.m_t {
+    margin-top: 50px;
+}
+
+.m_t2 {
+    margin-top: 150px;
+}
+
+.color1 {
+    color: blueviolet;
+}
+
+.fs25 {
+    font-size: 25px;
+}
+
+.cg {
+    column-gap: 10px;
+}
+
+.rg {
+    row-gap: 30px;
+}
+
+.rg1 {
+    row-gap: 10px;
+}
+
+.w500 {
+    width: 350px;
+}
+
