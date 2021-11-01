@@ -1,0 +1,30 @@
+@media screen and (max-width: 576px) {
+
+    .h3 {
+        font-size: 30px;
+    }
+
+    .h2 {
+        font-size: 40px;
+    }
+
+    .body__text {
+        font-size: 15px;
+    }
+
+    .body__boxes {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .body__box {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .body__boxes {
+        padding-top: 200px;
+    }
+}

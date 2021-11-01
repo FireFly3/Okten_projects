@@ -96,6 +96,7 @@
     background: #FFFFFF;
     box-shadow: 10px 10px 40px 20px
     rgba(0, 0, 0, 0.1);
+
 }
 
 .body__box_img {
@@ -125,6 +126,5 @@
 }
 
 .body__box {
-    margin-right: 15px;
-    margin-left: 15px;
+    margin: 15px;
 }
