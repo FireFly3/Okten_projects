@@ -72,6 +72,10 @@
     margin-top: 57px;
 }
 
+.blok__left_two img {
+    width: 100%;
+}
+
 .blok__right_two h2 {
     font-weight: bold;
     font-size: 20px;
@@ -89,6 +93,7 @@
     margin-top: 23px;
 }
 
+
 .blok__three {
     background: linear-gradient(180deg, #163DA2 0%, #003584 100%);
 }
@@ -103,8 +108,8 @@
 }
 
 .blok__right_three {
-    width: 496px;
-    height: 450px;
+    /*width: 496px;*/
+    /*height: 450px;*/
 }
 
 .blok__right_three h2 {
@@ -117,3 +122,152 @@
 
 }
 
+.blok__text_three {
+    width: 396px;
+    font-size: 17px;
+    line-height: 32px;
+    color: #FBFDFF;
+}
+
+
+.blok__left_four h2 {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 40px;
+    letter-spacing: 2.42px;
+    text-transform: uppercase;
+    color: #1652AC;
+    padding-top: 90px;
+    padding-left: 122px;
+}
+
+.blok__text_four {
+    font-size: 17px;
+    line-height: 32px;
+    color: #45494F;
+    padding-left: 122px;
+    padding-top: 20px;
+}
+
+.blok__right_four img {
+    width: 100%;
+}
+
+.body__screen_five {
+    background-color: #FBFBFC;
+}
+
+.box_1 {
+    width: 394px;
+    height: 136px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 16px;
+    margin: 3.5px;
+}
+
+.box__txt_five {
+    margin-top: 10px;
+}
+
+.box_2 {
+    background: #FFFFFF;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 16px;
+    padding: 45px;
+}
+
+.lists {
+    margin-top: 71px;
+}
+
+.list_1 img {
+    width: 100%
+}
+
+.list_2 img {
+    width: 100%
+}
+
+.list_1 {
+    /*margin-left: 10px;*/
+}
+
+.body__screen_six {
+    background-color: #FBFBFC;
+    margin-top: 57px;
+}
+
+.screen__seven_txt {
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: 4.42px;
+    color: #020303;
+    margin: 74px 0 31px 0;
+}
+
+.body__img_seven {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 21px rgba(64, 68, 75, 0.14);
+    border-radius: 8px;
+    padding: 19px 51px 19px 42px;
+}
+
+.body__blok_seven img {
+    width: 100%
+}
+
+.body__blok_seven {
+}
+
+.bloks__seven {
+    margin-left: 340px;
+}
+
+.box_seven_1 {
+    background: linear-gradient(180deg, #0C5CD6 0%, rgba(0, 56, 140, 0) 100%), #004FC7;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.21);
+    border-radius: 12px;
+    width: 394.55px;
+    height: 64px;
+}
+
+.box_seven_1 p {
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 40px;
+    letter-spacing: 1.42px;
+    color: #FAFBFE;
+    margin-top: 12px;
+}
+
+.screen_eight {
+    margin: 73px 0;
+}
+
+.eight_txt {
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 43px;
+    letter-spacing: -0.4px;
+    color: #1652AC;
+}
+
+.text_bottom_1 {
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 32px;
+    letter-spacing: -0.4px;
+    color: #A3ADBA;
+}
+
+.text_bottom_2 {
+    font-size: 17px;
+    line-height: 32px;
+    letter-spacing: -0.4px;
+    color: #9EABBB;
+}
