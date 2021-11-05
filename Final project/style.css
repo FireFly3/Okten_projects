@@ -1,0 +1,28 @@
+.header {
+    background: #0F2438;
+    height: 36px;
+}
+
+.navbar-brand {
+
+}
+
+.navbar-brand p {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+    /*margin-top: 14px;*/
+}
+
+.navbar-brand img {
+    margin-top: -14px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+    margin-top: -14px;
+}
