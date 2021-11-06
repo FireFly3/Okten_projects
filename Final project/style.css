@@ -26,3 +26,377 @@
     color: #FFFFFF;
     margin-top: -14px;
 }
+
+.body_block_one {
+    background: #FFFFFF;
+    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.15);
+}
+
+.block_one_h {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    color: #0F2438;
+    margin-bottom: -15px;
+}
+
+.block_one_txt1 {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    color: #0F2438;
+    /*margin-top: -7px;*/
+}
+
+.block_one_txt2 {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: right;
+    color: #0F2438;
+    margin-bottom: -10px;
+
+}
+
+.block_one_txt3 {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #0F2438;
+    margin-bottom: -10px;
+}
+
+.block_one_border1 {
+    background: #E1EFD0;
+    border-radius: 2px;
+    box-sizing: content-box;
+}
+
+.block_one_border1 {
+    height: 30px;
+}
+
+.block_one_img1 {
+    padding-left: 10px;
+}
+
+.block_one_txt4 p {
+    font-size: 12px;
+    line-height: 14px;
+    /*text-align: right;*/
+    color: #000000;
+    margin-bottom: 0.1px;
+    padding-right: 10px;
+}
+
+.block_one_text1 {
+    text-align: right;
+
+}
+
+.block_one_txt5 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    color: #0F2438;
+    text-align: right;
+
+}
+
+.block_one_txt6 {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    text-decoration-line: underline;
+    color: #0F2438;
+
+}
+
+.btn {
+    text-align: center;
+    height: 53px;
+    background: #005BB9;
+    margin-right: 30px;
+}
+
+.input-group {
+    height: 53px;
+}
+
+.input-group-text {
+    background-color: #005BB9;
+    color: #FFFFFF;;
+}
+
+.btn img {
+    margin-bottom: 5px;
+    margin-right: 10px;
+}
+
+.button_txt {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
+.enter {
+    padding: 0 15px 0 15px;
+}
+
+.block1_txt {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #0F2438;
+    margin: 1px 0 0 15px;
+
+}
+
+.favorite {
+    border-left: 1px solid #E1E5F8;
+    border-right: 1px solid #E1E5F8;
+    padding: 0 15px 0 15px;
+}
+
+.basket {
+    padding: 0 15px 0 15px;
+}
+
+.block_one {
+    padding-top: 20px;
+}
+
+.block_two11 {
+    padding-bottom: 20px
+}
+
+.body_block_two {
+    background-color: #E5E5E5;
+}
+
+.block_two1 {
+    background: url("img/Mask Group (2).png") no-repeat center/cover;
+    border-radius: 10px;
+
+}
+
+.box1_1 h2 {
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 42px;
+    color: #0A1A2C;
+}
+
+.box1_2 p {
+    font-size: 20px;
+    line-height: 23px;
+    text-decoration-line: underline;
+    color: #717171;
+}
+
+.box1_3 p {
+    font-weight: 500;
+    font-size: 37px;
+    line-height: 43px;
+    color: #005BB9;
+}
+
+.box1_3 span {
+    font-size: 22px;
+    line-height: 26px;
+    text-decoration-line: line-through;
+    color: #C2C5DA;
+}
+
+.box1_4 {
+    width: 40px;
+    height: 40px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.15);
+    border-radius: 50%;
+    /*transform: rotate(-180deg);*/
+}
+
+.box1_5 {
+    width: 40px;
+    height: 40px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.15);
+    border-radius: 50%;
+    transform: rotate(-180deg);
+}
+
+.block_two2 {
+    /*background: #F4F5FA;*/
+    /*border-radius: 10px;*/
+}
+
+.Two2_txt6 {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #0F2438;
+}
+
+.Two2_txt4 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 23px;
+    color: #0A1A2C;
+}
+
+.Two2_txt3 {
+    font-size: 12px;
+    line-height: 14px;
+    color: #525252;
+}
+
+.Two2_txt1 p {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFB800;
+}
+
+.Two2_txt1 span {
+    font-size: 16px;
+    line-height: 19px;
+    text-decoration-line: line-through;
+    color: #C2C5DA;
+}
+
+.box2_1 {
+    margin-bottom: 5px;
+    background: #F4F5FA;
+    border-radius: 10px;
+    padding-bottom: 10px;
+}
+
+.box2_2 {
+    margin-top: 10px;
+    background: #F4F5FA;
+    border-radius: 10px;
+    padding-bottom: 10px;
+}
+
+.Two2_butt {
+    margin-top: -30px;
+}
+
+.block_three {
+    background: #FFFFFF;
+    border: 1px solid #E1E5F8;
+    box-sizing: border-box;
+    border-radius: 6px;
+    margin: 3px;
+}
+
+.three_h h {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    color: #0A1A2C;
+}
+
+.three_p p {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    color: #0A1A2C;
+}
+
+.three_butt button {
+    height: 30px;
+}
+
+.four_btn2 button {
+    background: #E5E5E5;
+    color: #005BB9;
+}
+
+.five_layer2 span {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFB800;
+}
+
+.five_layer2 p {
+    font-size: 14px;
+    line-height: 16px;
+    color: #B0B0B0;
+}
+
+.five_layer2 img {
+    height: 16px;
+    margin-right: 5px;
+}
+
+.five_layer3 p {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 25px;
+    color: #0A1A2C;
+
+}
+
+.five_layer4 p {
+    font-size: 13px;
+    line-height: 15px;
+    color: #000000;
+}
+
+.five_layer4 span {
+    font-size: 13px;
+    line-height: 15px;
+    text-decoration-line: underline;
+    color: #005BB9;
+}
+
+.five_layer5 p {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    color: #FFFFFF;
+    background: #FFB800;
+    border-radius: 2px;
+    width: 39px;
+    padding-top: 2px;
+}
+
+.five_img img {
+    margin-top: -29px;
+}
+
+.five {
+    border-bottom: 1px solid #E1E5F8;
+   padding-bottom: 40px;
+    padding-top: 30px;
+}
+
+.five {
+    padding-bottom: 40px;
+    padding-top: 30px;
+}
+
+.six_btn button {
+    background: #FFFFFF;
+    border: 2px solid #005BB9;
+    box-sizing: border-box;
+    border-radius: 6px;
+    align-items: center;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #005BB9;
+}
+
+.six_btn {
+    padding-top: 30px;
+    padding-bottom: 122px;
+    border-bottom: 9px solid #F5F5F5;
+}
