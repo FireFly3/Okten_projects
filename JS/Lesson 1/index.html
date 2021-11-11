@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<!-- - Створити змінні. Присвоїти кожному з них значення: 'hello','owu','com', 'ua', 1, 10, -999, 123, 3.14, 2.7, 16, true, false.-->
+<!--Вивести кожну змінну за допомогою: console.log , alert, document.write-->
+<!-- - Переприсвоїти кожній змінній з завдання значення на довільне.-->
+<!--Вивести кожну змінну за допомогою: console.log , alert, document.write-->
+<!-- - Створити 3 змінних firstName, middleName, lastName, наповнити їх своїм ПІБ. З'єднати їх в одну змінну person. (Не об'єкт)-->
+<!-- - За допомогою 3х різних prompt() отримати 3 слова які являються вашими Імям, По-Батькові та роками.-->
+<!--Вивести "Вітаю *Імя* *По батькові*. Тобі *вік* років".-->
+<!-- - За допомогою оператора typeof визначити типи наступних змінних та вивести їх в консоль.-->
+<!--let a = 100; let b = '100'; let c = true;-->
+<!-- - Визначити відповідний оператор в виразах що б вийшов відповідний результат.-->
+<!--В однакових виразах не використовувати однакові оператори!!!-->
+<!--5 ? 6 -> true-->
+<!--5 ? 6 -> false-->
+<!--5 ? 6 -> false-->
+<!--5 ? 6 -> false-->
+<!--10 ? 10 -> true-->
+<!--10 ? 10 -> true-->
+<!--10 ? 10 -> false-->
+<!--10 ? 10 -> false-->
+<!--10 ? 10 -> false-->
+<!--123 ? '123' -> false-->
+<!--123 ? '123' -> true-->
+
+<!-- - Подумайте Какие значения выведет в окно браузера следующий фрагмент кода?  и почему?-->
+<!--let str = "20";-->
+<!--let a = 5;-->
+<!--document.write(str + a + "<br/>");-->
+<!--document.write(str - a + "<br/>");-->
+<!--document.write(str * "2" + "<br/>");-->
+<!--document.write(str / 2 + "<br/>");-->
+
+
+<script>
+
+
+    // let a = 'hello';
+    // a = 'Beautiful ';
+    // console.log (a);
+    // alert(a);
+    // document.write (a);
+    //
+    // let b = 'owu';
+    // b = 'girl ';
+    // console.log (b);
+    // alert(b);
+    // document.write (b);
+    //
+    // let c = 'com';
+    // c = 'with ';
+    // console.log (c);
+    // alert(c);
+    // document.write (c);
+    //
+    // let d = 'ua';
+    // d = 'big ';
+    // console.log (d);
+    // alert(d);
+    // document.write (d);
+    //
+    // let e = 1;
+    // e = 'eyes ';
+    // console.log (e);
+    // alert(e);
+    // document.write (e);
+    //
+    // let f = 10;
+    // f = 'of ';
+    // console.log (f);
+    // alert(f);
+    // document.write (f);
+    //
+    // let g = -999;
+    // g = 'the ';
+    // console.log (g);
+    // alert(g);
+    // document.write (g);
+    //
+    // let h = 123;
+    // h = 4;
+    // console.log (h);
+    // alert(h);
+    // document.write (h);
+    //
+    // let i = 3.14;
+    // i = ' size ';
+    // console.log (i);
+    // alert(i);
+    // document.write (i);
+    //
+    // let j = 2.7;
+    // j = 'is it ';
+    // console.log (j);
+    // alert(j);
+    // document.write (j);
+    //
+    // let k = 16;
+    // k = false;
+    // console.log (k);
+    // alert(k);
+    // document.write (k);
+    //
+    // let l = true;
+    // l = 'or ';
+    // console.log (l);
+    // alert(l);
+    // document.write (l);
+    //
+    // let m = false;
+    // m = true;
+    // console.log (m);
+    // alert(m);
+    // document.write (m);
+
+
+
+    // let name = prompt('Имя?', 'Денис');
+    // let name2 = prompt('Отчество?', 'Владимирович')
+    // let age = prompt('Возраст?', '32');
+    // document.write (`Вітаю ${name} ${name2}. Тобі ${age} роки`);
+
+
+
+    // let firstName = 'Дирда ';
+    // let middleName = 'Денис ';
+    // let lastName = 'Володимирович';
+    // let person = firstName+middleName+lastName;
+    // console.log(person);
+    // alert(person);
+    // document.write (person);
+    //
+    //
+    //
+    // let ax = 100;
+    // let bx = '100';
+    // let cx = true;
+    // console.log(typeof ax);
+    // console.log(typeof bx);
+    // console.log(typeof cx);
+    //
+    //
+    //
+    //
+    // console.log(5 < 6);
+    // console.log(5 > 6);
+    // console.log(5 == 6);
+    // console.log(5 >= 6);
+    // console.log(10 == 10);
+    // console.log(10 === 10);
+    // console.log(10 > 10);
+    // console.log(10 < 10);
+    // console.log(10 !== 10);
+    // console.log(123 === '123');
+    // console.log(123 == '123');
+    //
+    //
+    //
+    // let str = "20";
+    // let a = 5;
+    // document.write(str + a + "<br/>"); //205
+    // document.write(str - a + "<br/>"); //15
+    // document.write(str * "2" + "<br/>"); //40
+    // document.write(str / 2 + "<br/>"); //10
+
+    // в первом примере значение а переводится из числового в строчное и просто соеденяется как 2 строки,
+    // в трех остальных примерах, строчное зачение переводится к типу числовому и выполняется математическое действие
+
+
+
+</script>
+
+
+
+
+
+
+</body>
+</html>
