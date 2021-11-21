@@ -39,7 +39,7 @@
 //     }
 // }
 //
-// ell(arr)
+// ell(arr);
 
 
 //==============================================================================================================
@@ -89,7 +89,7 @@
 // function list3(arr) {
 //     document.write("<ul>");
 //     for (let i = 0; i < arr.length; i++) {
-//         document.write(`<li>${arr[i]}</li>`)
+//         document.write(`<li>${arr[i]}</li>`);
 //     }
 //
 //     document.write("</ul>");
