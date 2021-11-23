@@ -1,8 +1,7 @@
-
 //- створити функцію яка приймає три числа та виводить найменьше. (Без Math.min!)
 
 
-// function min(a, b, c) {
+// let min = (a, b, c) => {
 //     if (a < b && a < c) {
 //         document.write(a);
 //     } else if (b < a && b < c) {
@@ -18,7 +17,7 @@
 // - створити функцію яка приймає три числа та виводить найбільше. (Без Math.max!)
 
 
-// function max(a, b, c) {
+// let max = (a, b, c) => {
 //     if (a > b && a > c) {
 //         document.write(a);
 //     } else if (b > a && b > c) {
@@ -35,7 +34,7 @@
 
 // let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 100];
 //
-// function maxNum(arrey) {
+// let maxNum = (arrey) => {
 //     let max = arrey[0];
 //     for (const maxElement of arrey) {
 //         if (maxElement > max) {
@@ -53,7 +52,7 @@
 
 // let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 100];
 //
-// function minNum(arrey) {
+// let minNum = (arrey) => {
 //     let min = arrey[0];
 //     for (const minElement of arrey) {
 //         if (minElement < min) {
@@ -70,7 +69,7 @@
 
 // let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 100];
 //
-// function sum(arrey) {
+// let sum = (arrey) => {
 //     let plus = 0;
 //     for (let i = 0; i < arrey.length; i++) {
 //         plus = plus + arrey[i];
@@ -85,7 +84,7 @@
 
 // let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 100];
 //
-// function sum(arrey) {
+// let sum = (arrey) => {
 //     let plus = 0;
 //     for (let i = 0; i < arrey.length; i++) {
 //         plus = plus + arrey[i];
@@ -99,29 +98,29 @@
 // - створити функцію яка приймає будь-яку кількість чисел, повертає найменьше, а виводить найбільше (Math використовувати заборонено);
 
 
-// function numMinMax() {
-//     let min = arguments[0];
-//     let max = arguments[0];
-//     for (let i = 0; i < arguments.length; i++) {
-//         if (arguments[i] < min) {
-//             min = arguments[i];
-//         }
-//         if (arguments[i] > max) {
-//             max = arguments[i];
-//         }
-//     }
-//     console.log(max)
-//     return min;
-// }
-//
-// numMinMax(1, 2, 3, 4, 5, 6, 7, 8);
+let numMinMax = () => {
+    let min = arguments[0];
+    let max = arguments[0];
+    for (let i = 0; i < arguments.length; i++) {
+        if (arguments[i] < min) {
+            min = arguments[i];
+        }
+        if (arguments[i] > max) {
+            max = arguments[i];
+        }
+    }
+    console.log(max)
+    return min;
+}
+
+numMinMax(1, 2, 3, 4, 5, 6, 7, 8);
 
 
 // - створити функцію яка заповнює масив рандомними числами
 // (цей код генерує рандомні числа в діапазоні від 0 до 100 - Math.round(Math.random()*100)) та виводить його.
 
 
-// function random (arr, size) {
+// let random = (arr, size) => {
 //     for (let i = 0; i < size; i++) {
 //         arr[i] = Math.round(Math.random() * 100);
 //     }
@@ -133,7 +132,7 @@
 // - створити функцію яка заповнює масив рандомними числами в діапазоні від 0 до limit. limit - аргумент, який характеризує кінцеве значення діапазону.
 
 
-// function random1 (arr, size, limit) {
+// let random1 = (arr, size, limit) => {
 //     for (let i = 0; i < size; i++) {
 //         arr[i] = Math.round(Math.random() * limit);
 //     }
@@ -146,7 +145,7 @@
 
 
 // let arr1 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 0];
-// function rev(arr) {
+// let rev = (arr) => {
 //     let revers = [];
 //     for (let i = 0, revi = arr.length; i < arr.length; i++, revi--) {
 //         revers[revi] = arr[i];
@@ -154,13 +153,13 @@
 //     return revers;
 // }
 //
-// document.write(rev(arr1));
+// console.log(rev(arr1));
 
 
 //- створити функцію яка приймає три числа та виводить найменьше. (Без Math.min!)
 
 
-// function numbers(a, b, c) {
+// let numbers = (a, b, c) => {
 //     if (a < b && a < c) {
 //         console.log(a);
 //     } else if (b < a && b < c) {
