@@ -98,15 +98,15 @@
 // - створити функцію яка приймає будь-яку кількість чисел, повертає найменьше, а виводить найбільше (Math використовувати заборонено);
 
 
-let numMinMax = () => {
-    let min = arguments[0];
-    let max = arguments[0];
-    for (let i = 0; i < arguments.length; i++) {
-        if (arguments[i] < min) {
-            min = arguments[i];
+let numMinMax = (...myarr) => {
+    let min = myarr[0];
+    let max = myarr[0];
+    for (let i = 0; i < myarr.length; i++) {
+        if (myarr[i] < min) {
+            min = myarr[i];
         }
-        if (arguments[i] > max) {
-            max = arguments[i];
+        if (myarr[i] > max) {
+            max = myarr[i];
         }
     }
     console.log(max)
