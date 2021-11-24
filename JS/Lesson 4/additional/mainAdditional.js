@@ -39,3 +39,50 @@
 // EXAMPLE:
 //     [{name: 'Dima', age: 13}, {model: 'Camry'}]  ===> [ name, age, model ]
 
+// let arrOne = [{name: 'Dima', age: 13}, {model: 'Camry'}];
+//
+// function mass(arr) {
+//     let a = [];
+//     for (const obj of arr) {
+//         for (let key in obj) {
+//             a.push(key);
+//
+//         }
+//     } return a;
+//
+// }
+//
+// console.log(mass(arrOne));
+
+
+// - Створити функцію яка приймає масив будь яких объектів, та повертає масив значень всіх обєктів
+// EXAMPLE:
+//     [{name: 'Dima', age: 13}, {model: 'Camry'}]  ===> [ Dima, 13, Camry ]
+
+
+// let arrTwo = [{name: 'Dima', age: 13}, {model: 'Camry'}];
+//
+// function value(arr) {
+//     let b = [];
+//     for (const obj of arr) {
+//         for (let key in obj) {
+//             b.push(obj[key]);
+//         }
+//     }
+//     return b;
+// }
+//
+// console.log(value(arrTwo));
+
+// let arrTwo = [{name: 'Dima', age: 13}, {model: 'Camry'}];
+//
+// function value(arr) {
+//     let b = [];
+//     for (const obj of arr) {
+//         b.push(...Object.values(obj))
+//
+//     }
+//     return b;
+// }
+//
+// console.log(value(arrTwo));
