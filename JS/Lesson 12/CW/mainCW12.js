@@ -32,15 +32,16 @@ fetch('https://jsonplaceholder.typicode.com/posts')
             button.classList.add('button');
 
             button.onclick = function () {
-                let elementsByClassName = document.getElementsByClassName('window2')[0];
 
-                if (elementsByClassName) {
-                    elementsByClassName.remove()
-                }
 
                 fetch(`https://jsonplaceholder.typicode.com/posts/${user.id}/comments`)
                     .then(response => response.json())
                     .then(comments => {
+                        let elementsByClassName = document.getElementsByClassName('window2')[0];
+
+                        if (elementsByClassName) {
+                            elementsByClassName.remove()
+                        }
                         let divElement1 = document.createElement('div');
                         divElement1.classList.add('window2')
                         for (const comment of comments) {
