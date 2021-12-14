@@ -47,13 +47,6 @@ fetch('https://jsonplaceholder.typicode.com/users')
                     .then(result => result.json())
                     .then(posts => {
 
-                        // let blockPost = document.getElementsByClassName('block')[0];
-                        //
-                        // if (blockPost) {
-                        //     blockPost.remove()
-                        // }
-                        //
-
 
                         for (const post of posts) {
                             console.log(post);
@@ -87,11 +80,7 @@ fetch('https://jsonplaceholder.typicode.com/users')
                                 fetch(`https://jsonplaceholder.typicode.com/posts/${post.id}/comments`)
                                     .then(response => response.json())
                                     .then(comments => {
-                                        // let elementsByClassName = document.getElementsByClassName('window2')[0];
-                                        //
-                                        // if (elementsByClassName) {
-                                        //     elementsByClassName.remove()
-                                        // }
+
                                         for (const comment of comments) {
                                         let divElement1 = document.createElement('div');
                                         divElement1.classList.add('block')
