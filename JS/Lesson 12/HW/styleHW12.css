@@ -1,0 +1,31 @@
+.window {
+    width: 1400px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+
+}
+
+.post {
+    width: 220px;
+    height: 350px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0 10px 0;
+}
+
+.id {
+    text-align: center;
+}
+
+.comment {
+    width: 220px;
+    height: 400px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0 10px 0;
+}
