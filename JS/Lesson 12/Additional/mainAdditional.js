@@ -51,7 +51,7 @@ fetch('https://jsonplaceholder.typicode.com/users')
                         for (const post of posts) {
                             console.log(post);
                             let divElement = document.createElement('div');
-                            divElement.classList.add('block')
+                            divElement.classList.add('block1')
 
                             let blockItem = document.createElement('div');
                             blockItem.classList.add('post');
@@ -83,7 +83,7 @@ fetch('https://jsonplaceholder.typicode.com/users')
 
                                         for (const comment of comments) {
                                         let divElement1 = document.createElement('div');
-                                        divElement1.classList.add('block')
+                                        divElement1.classList.add('block2')
 
                                             let blockItem1 = document.createElement('div');
                                             blockItem1.classList.add('comment');

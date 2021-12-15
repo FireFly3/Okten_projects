@@ -14,3 +14,25 @@
     margin: 5px;
     padding: 5px;
 }
+
+.block1 {
+    width: 240px;
+    height: 450px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 5px;
+    background-color: #acc0e7;
+}
+
+.block2 {
+    width: 240px;
+    height: 450px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 5px;
+    background-color: #e8aec0;
+}
