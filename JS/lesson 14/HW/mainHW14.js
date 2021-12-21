@@ -179,25 +179,31 @@
 //
 //         return goSleep('ZzZzZz')
 //     })
-//     .then(completedTask => {
 //
-//         console.log(completedTask)
+//     .catch(e => {
+//         console.error(e)
+//     })
+//     .finally(() => {
+//         console.log('Final')
 //     })
 
 //Async await
 
 // async function timetable() {
-//     const good = await getUp(true);
-//     const soup = await goToShower(good);
-//     const workinggggg = await breakfast(soup);
-//     const jobJobJob = await goWork(workinggggg);
-//     const twix = await working(jobJobJob);
-//     const uhu = dinner(twix);
-//     const nam_nam = goHone(uhu);
-//     const yeah = eveningMeal(nam_nam);
-//     const zZzZzZz = takeShower(yeah);
-//     const endOfDay = goSleep(zZzZzZz);
-//
+//     try {
+//         const good = await getUp(true);
+//         const soup = await goToShower(good);
+//         const workinggggg = await breakfast(soup);
+//         const jobJobJob = await goWork(workinggggg);
+//         const twix = await working(jobJobJob);
+//         const uhu = dinner(twix);
+//         const nam_nam = goHone(uhu);
+//         const yeah = eveningMeal(nam_nam);
+//         const zZzZzZz = takeShower(yeah);
+//         const endOfDay = goSleep(zZzZzZz);
+//     } catch (err) {
+//         console.error(err)
+//     }
 // }
 //
 // timetable();
@@ -340,57 +346,62 @@ function goSleep(sleep, callback) {
 }
 
 getUp(true, (err, goodMorning) => {
-    if (err) {
-        console.error(err)
-    } else {
-        goToShower(goodMorning, (err1, Gooood) => {
-            if (err1) {
-                console.error(err1)
-            } else {
-                breakfast(Gooood, (err2, runRun) => {
-                    if (err2) {
-                        console.error(err2)
-                    } else {
-                        goWork(runRun, (err3, wjobin) => {
-                            if (err3) {
-                                console.error(err3)
-                            } else {
-                                working(wjobin, (err4, uuuuu) => {
-                                    if (err4) {
-                                        console.error(err4)
-                                    } else {
-                                        dinner(uuuuu, (err5, comeHome) => {
-                                            if (err5) {
-                                                console.error(err5)
-                                            } else {
-                                                goHone(comeHome, (err6, namiNami) => {
-                                                    if (err6) {
-                                                        console.error(err6)
-                                                    } else {
-                                                        eveningMeal(namiNami, (err7, nice) => {
-                                                            if (err7) {
-                                                                console.error(err7)
-                                                            } else {
-                                                                takeShower(nice, (err8, zZzZz) => {
-                                                                    if(err8) {
-                                                                        console.error(err8)
-                                                                    } else {
-                                                                        goSleep(zZzZz)
-                                                                    }
-                                                                })
-                                                            }
-                                                        })
-                                                    }
-                                                })
-                                            }
-                                        })
-                                    }
-                                })
-                            }
-                        })
-                    }
-                })
-            }
-        })
+    try {
+
+        if (err) {
+            console.error(err)
+        } else {
+            goToShower(goodMorning, (err1, Gooood) => {
+                if (err1) {
+                    console.error(err1)
+                } else {
+                    breakfast(Gooood, (err2, runRun) => {
+                        if (err2) {
+                            console.error(err2)
+                        } else {
+                            goWork(runRun, (err3, wjobin) => {
+                                if (err3) {
+                                    console.error(err3)
+                                } else {
+                                    working(wjobin, (err4, uuuuu) => {
+                                        if (err4) {
+                                            console.error(err4)
+                                        } else {
+                                            dinner(uuuuu, (err5, comeHome) => {
+                                                if (err5) {
+                                                    console.error(err5)
+                                                } else {
+                                                    goHone(comeHome, (err6, namiNami) => {
+                                                        if (err6) {
+                                                            console.error(err6)
+                                                        } else {
+                                                            eveningMeal(namiNami, (err7, nice) => {
+                                                                if (err7) {
+                                                                    console.error(err7)
+                                                                } else {
+                                                                    takeShower(nice, (err8, zZzZz) => {
+                                                                        if (err8) {
+                                                                            console.error(err8)
+                                                                        } else {
+                                                                            goSleep(zZzZz)
+                                                                        }
+                                                                    })
+                                                                }
+                                                            })
+                                                        }
+                                                    })
+                                                }
+                                            })
+                                        }
+                                    })
+                                }
+                            })
+                        }
+                    })
+                }
+            })
+        }
+    } catch (error) {
+        console.error(error);
     }
 })
