@@ -1,0 +1,49 @@
+.window {
+    width: 1400px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.block {
+    width: 495px;
+    height: 400px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 5px;
+    background-color: #9a9999;
+}
+
+.button1 {
+    width: 90%;
+    height: 50px;
+}
+
+.post {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.button2 {
+    width: 80px;
+    height: 30px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.block1 {
+    width: 250px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 5px;
+    display: flex;
+    background-color: cornflowerblue;
+    justify-content: space-between;
+}
